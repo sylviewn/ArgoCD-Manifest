@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'sylviewette/amazon'
+    env.IMAGE = 'sylviewette/amazon2'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/sylviewn/ArgoCD-manifest.git'  
