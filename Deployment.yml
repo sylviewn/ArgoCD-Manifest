@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: sylviewette/amazon2 
+        image: sylviewette/amazon2:latest
         ports:
         - containerPort: 3000
         
